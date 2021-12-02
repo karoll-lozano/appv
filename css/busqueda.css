@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    
+}
+
+/* Tablet "Medium" */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Smartphones */
+@media screen and (min-width: 0px) and (max-width: 760px) {
+   
+    .btn-primary{
+        color: #ffffff;
+        background-color: #019592;
+        border-color: #017a78;
+        border-radius: 16px;
+        font-family: 'Roboto Medium', arial;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+    .btn-primary:hover {
+        color: #000000;
+        background-color: #019592;
+        border-color: #017a78;
+    }
+
+    .btn-primary:focus {
+        color: #864A79;
+        background-color: #057674;
+        border-color: #017a78;
+        box-shadow: 0 0 0 0.25rem rgb(0 195 176 / 50%);
+    }
+
+    .btn-primary:active {
+        color: #864A79;
+        background-color: #057674;
+        border-color: #017a78;
+        box-shadow: 0 0 0 0.25rem rgb(0 195 176 / 50%);
+    }
+
+    .icono {
+        position: relative;
+        z-index: 1;
+        left: -25px;
+        top: 1px;
+        color: #017374;
+        cursor: pointer;
+        width: 0;
+    }
+
+    .busqueda {
+        border: 1px solid #707070;
+        padding: 2px;
+        outline: none;
+        width: 17rem;
+      }
+      
+    .busqueda:focus {
+        border-color: #017374;
+    }
+
+    .input-viaje::placeholder {
+        color: #01A299;
+    }
+
+    .input-viaje:focus {
+        color: #018786;
+        background-color: #fff;
+        border-color: #000000;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgb(62 73 90 / 25%);
+    }
+
+    .form-check-input:checked {
+        background-color: #019592;
+        border-color: #017a78;
+    }
+
+    .input-viaje {
+        font-family: 'Roboto Medium', arial;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    placeholder {
+        font-family: 'Roboto Medium', arial;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+
+}   
+
+

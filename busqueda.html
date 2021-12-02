@@ -20,121 +20,91 @@
   </head>
 
   <body>
+
     <div class="container">
-       <div class="row mt-4">
-            <div class="col-10">
-               <input type="text">
+       <div class="row">
+            <div class="col-10 my-3">
+               <input type="text" class="busqueda">
+               <i class="fa fa-search icono"></i>
             </div>
-            <div class="col-2">
-                <a href="#" class="mx-3">
+            <div class="col-2 my-3">
+                <a href="#" class="mx-2">
                     <img src="img/icon-navigation.png" alt="">
                 </a>
              </div>
        </div> 
     </div>
-    <div class="container"> <!--botones-->
+
+    <!-- Botones NAV alineados -->
+    <div class="container my-3"> 
        <div class="row">
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-            <label class="btn btn-outline-primary" for="btnradio1">Vuelos</label>
-          
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio2">Habitaciones</label>
-          
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio3">Paquetes</label>
-          </div>
-           <!-- <div class="col-4">
-            <a class="btn btn-primary" href="#" role="button">Vuelos</a>
-           </div>
-           <div class="col-4">
-            <a class="btn btn-primary" href="#" role="button">Habitaciones</a>
-           </div>
-           <div class="col-4">
-            <a class="btn btn-primary" href="#" role="button">Paquetes</a>
-           </div> -->
-       </div> 
+            <div class="col">
+                <button type="button" class="btn btn-primary form-control btn-block">Vuelos</button>
+            </div>    
+            <div class="col">
+                <button type="button" class="btn btn-primary form-control btn-block">Habitaciones</button>
+            </div>    
+            <div class="col">
+                <button type="button" class="btn btn-primary form-control btn-block">Paquetes</button>
+            </div>    
+       </div>           
     </div>
-    <div class="container">
-       <div class="row">
-        <h5>¿A dónde vamos?</h5>
-       </div> 
-    </div>
-    <div class="container">
-       <div class="row">
-        <div class="col-2">    
-            <a href="#" class="mx-3">
-                <img src="img/icon-maps.png" alt="">
-            </a>
+
+    <!-- Form con Datos de Viaje -->
+    <div class="container my-3">
+
+        <div class="row my-2">
+            <h5>¿A dónde vamos?</h5>
         </div>
-        <div class="col-10">
-            <input type="text" placeholder="Ingresa tu destino"> 
-        </div>    
-       </div> 
-    </div>
-    <div class="container">
-       <div class="row">
-        <div class="col-2">    
-            <a href="#" class="mx-3">
-                <img src="img/Icon-location.png" alt="">
-            </a>
+        <div class="row my-2">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <td><img src="img/icon-maps.png" alt=""></td>
+                        <td><input type="text" class="form-control input-viaje" placeholder="Ingresa tu destino"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Icon-location.png" alt=""></td>
+                        <td><input type="text" class="form-control input-viaje" placeholder="Ingresa tu destino"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon-people.png" alt=""></td>
+                        <td><input type="text" class="form-control input-viaje" placeholder="Cantidad de personas"></td>
+                    </tr>                    
+                </tbody>
+            </table>            
         </div>
-        <div class="col-10">
-            <input type="text" placeholder="Ingresa tu destino">
-        </div> 
-       </div> 
-    </div>
-    <div class="container">
-       <div class="row">
-            <div class="col-2">    
-                <a href="#" class="mx-3">
-                    <img src="img/icon-people.png" alt="">
-                </a>
-            </div>
-            <div class="col-10">
-                <input type="text" placeholder="Cantidad de personas">
-            </div> 
-        </div> 
-    </div>
-    <div class="container">
-       <div class="row">
-        <h5>Selecciona las fechas</h5>
-       </div> 
-    </div>
-    <div class="container">
-       <div class="row">
-            <div class="col-2">    
-                <a href="#" class="mx-3">
-                    <img src="img/icon-calendar1.png" alt="">
-                </a>
-            </div>
-            <div class="col-10">
-                <input type="text" placeholder="Fecha de ida">
-            </div> 
-       </div> 
-    </div> 
-    <div class="container">
-       <div class="row">
-        <div class="col-2">    
-            <a href="#" class="mx-3">
-                <img src="img/icon-calendar2.png" alt="">
-            </a>
+
+        <div class="row my-2">
+            <h5>Selecciona las fechas</h5>
         </div>
-        <div class="col-10">
-            <input type="text" placeholder="Fecha de regreso">
-        </div> 
-       </div> 
+        <div class="row my-2">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <td><img src="img/icon-calendar1.png" alt=""></td>
+                        <td><input type="text" class="form-control input-viaje" placeholder="Fecha de ida"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/icon-calendar2.png" alt=""></td>
+                        <td><input type="text" class="form-control input-viaje" placeholder="Fecha de regreso"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="row my-2">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <td class="text-center"><input class="form-check-input check-define destino" type="radio" name="radio-define" id="radio-define"></td>
+                        <td><p>Aún no lo defino</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-    <div class="container">
-       <div class="row">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Aún no lo defino
-                </label>
-          </div>
-       </div> 
-    </div>
+
     <div class="container">
        <div class="row">
 
