@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
 
+body {
+    background: #CFEDE8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 /* Desktop */
 @media screen and (min-width: 1024px) {
     
@@ -15,7 +20,7 @@
     
     .titulo {
         text-align: left;
-        font-size: 24px;
+        font-size: 20px;
         font: normal normal medium 24px/16px Roboto;
         letter-spacing: 2.14px;
         color: #000000DE;
@@ -23,18 +28,20 @@
     }
 
     .sub-titulo {
-        text-align: left;
+        width: 300px;
+        height: 37px;
+        text-align: center;
         font-size: 16px;
-        font: normal normal medium 16px/16px Roboto;
+        text-align: center;
+        font: normal normal medium 16px/15px Roboto;
         letter-spacing: 1.42px;
-        color: #000000DE;
-        opacity: 1;
+        color: #000000E3;
     }
 
     .text-btn {
         text-align: left;
         font-size: 14px;
-        font: normal normal medium 14px/16px Roboto;
+        font: normal normal bold 14px/16px Roboto;
         letter-spacing: 1.25px;
         color: #FFFFFF;
         opacity: 1;
@@ -72,4 +79,4 @@
         border-color: #017a78;
         box-shadow: 0 0 0 0.25rem rgb(0 195 176 / 50%);
     }
-}   
+} 
