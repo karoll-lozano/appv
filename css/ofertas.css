@@ -12,24 +12,30 @@
 
 /* Smartphones */
 @media screen and (min-width: 0px) and (max-width: 760px) {
-   
-    .input-viaje::placeholder {
-        color: #01A299;
-    }
-
-    .input-viaje:focus {
-        color: #018786;
-        background-color: #fff;
-        border-color: #000000;
-        outline: 0;
-        box-shadow: 0 0 0 0.25rem rgb(62 73 90 / 25%);
+    
+    .btn-primary{
+        color: #ffffff;
+        background-color: #019592;
+        border-color: #017a78;
+        border-radius: 16px;
+        font-family: 'Roboto Medium', arial;
+        font-size: 14px;
+        font-weight: 300;
     }
     
-    .form-check-input:checked {
+    .btn-primary:hover {
+        color: #000000;
         background-color: #019592;
         border-color: #017a78;
     }
 
+    .btn-primary:focus {
+        color: #864A79;
+        background-color: #057674;
+        border-color: #017a78;
+        box-shadow: 0 0 0 0.25rem rgb(0 195 176 / 50%);
+    }
+    
     .footer {
         position: fixed;
         left: 0;
